@@ -52,7 +52,7 @@ rule C_COMPILER__zephyr_pre0_
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__zephyr_pre0_
-  command = cmd.exe /C "$PRE_LINK && C:\Users\Aluno\.platformio\packages\toolchain-gccarmnoneeabi@1.80201.181220\bin\arm-none-eabi-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"c:/users/aluno/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp" C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/libc.a -lgcc && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Aluno\.platformio\packages\toolchain-gccarmnoneeabi@1.80201.181220\bin\arm-none-eabi-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"c:/users/aluno/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp" C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/libc.a -lgcc && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -100,7 +100,7 @@ rule C_COMPILER__zephyr_final_
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__zephyr_final_
-  command = cmd.exe /C "$PRE_LINK && C:\Users\Aluno\.platformio\packages\toolchain-gccarmnoneeabi@1.80201.181220\bin\arm-none-eabi-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"c:/users/aluno/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp" C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/libc.a -lgcc && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Aluno\.platformio\packages\toolchain-gccarmnoneeabi@1.80201.181220\bin\arm-none-eabi-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"c:/users/aluno/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp" C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/libc.a -lgcc && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -503,7 +503,7 @@ rule C_STATIC_LIBRARY_LINKER__kernel_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\Aluno\.platformio\packages\tool-cmake\bin\cmake.exe --regenerate-during-build -SC:\Users\Aluno\Documents\PlatformIO\Projects\Aula_01_uC2\zephyr -BC:\Users\Aluno\Documents\PlatformIO\Projects\Aula_01_uC2\.pio\build\frdm_kl25z
+  command = C:\Users\Aluno\.platformio\packages\tool-cmake\bin\cmake.exe --regenerate-during-build -SC:\Users\Aluno\Documents\PlatformIO\Projects\PSI-Microcontroladores2-Aula01\Aula_01_uC2\zephyr -BC:\Users\Aluno\Documents\PlatformIO\Projects\PSI-Microcontroladores2-Aula01\Aula_01_uC2\.pio\build\frdm_kl25z
   description = Re-running CMake...
   generator = 1
 

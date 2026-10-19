@@ -1,12 +1,12 @@
 .pio\build\frdm_kl25z\zephyr\linker.cmd: \
  C:\Users\Aluno\.platformio\packages\framework-zephyr\include\zephyr\arch\arm\cortex_m\scripts\linker.ld \
- C:\Users\Aluno\Documents\PlatformIO\Projects\Aula_01_uC2\.pio\build\frdm_kl25z\zephyr\include\generated\zephyr\autoconf.h \
+ C:\Users\Aluno\Documents\PlatformIO\Projects\PSI-Microcontroladores2-Aula01\Aula_01_uC2\.pio\build\frdm_kl25z\zephyr\include\generated\zephyr\autoconf.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/sections.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/section_tags.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/toolchain.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/toolchain/gcc.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/devicetree.h \
- C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/zephyr/devicetree_generated.h \
+ C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/zephyr/devicetree_generated.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/irq_multilevel.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/sys/util.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/sys/util_macro.h \
@@ -35,14 +35,14 @@
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/devicetree_regions.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/linker-defs.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/toolchain/common.h \
- C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/zephyr/offsets.h \
+ C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/zephyr/offsets.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/linker-tool.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/linker-tool-gcc.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/kernel/mm.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/kernel/internal/mm.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/linker-devnull.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/rel-sections.ld \
- C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-rom-start.ld \
+ C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-rom-start.ld \
  c:\users\aluno\.platformio\packages\framework-zephyr\arch\common\rom_start_address.ld \
  c:\users\aluno\.platformio\packages\framework-zephyr\arch\common\fill_with_zeros.ld \
  c:\users\aluno\.platformio\packages\framework-zephyr\arch\common\rom_start_offset.ld \
@@ -55,7 +55,7 @@
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/common-rom/common-rom-kernel-devices.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/iterable_sections.h \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/device-deps.ld \
- C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/device-api-sections.ld \
+ C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/device-api-sections.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/common-rom/common-rom-ztest.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/common-rom/common-rom-init.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/common-rom/common-rom-net.ld \
@@ -64,26 +64,26 @@
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/common-rom/common-rom-debug.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/common-rom/common-rom-interrupt-controllers.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/common-rom/common-rom-misc.ld \
- C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-rom-sections.ld \
+ C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-rom-sections.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/thread-local-storage.ld \
- C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-rodata.ld \
+ C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-rodata.ld \
  c:\users\aluno\.platformio\packages\framework-zephyr\arch\arm\core\swi_tables.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/kobject-rom.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/cplusplus-rom.ld \
- C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-ram-sections.ld \
+ C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-ram-sections.ld \
  c:\users\aluno\.platformio\packages\framework-zephyr\arch\common\ramfunc.ld \
- C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-ramfunc-section.ld \
+ C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-ramfunc-section.ld \
  c:\users\aluno\.platformio\packages\framework-zephyr\_pio\modules\hal\nxp\mcux\quick_access_code.ld \
- C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-rwdata.ld \
+ C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-rwdata.ld \
  c:\users\aluno\.platformio\packages\framework-zephyr\_pio\modules\hal\nxp\mcux\quick_access_data.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/common-ram.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/kobject-data.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/cplusplus-ram.ld \
- C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-data-sections.ld \
- C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-sections.ld \
+ C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-data-sections.ld \
+ C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-sections.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/intlist.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/debug-sections.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/common-noinit.ld \
- C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-noinit.ld \
+ C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/zephyr/include/generated/snippets-noinit.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/kobject-priv-stacks.ld \
  C:/Users/Aluno/.platformio/packages/framework-zephyr/include/zephyr/linker/ram-end.ld

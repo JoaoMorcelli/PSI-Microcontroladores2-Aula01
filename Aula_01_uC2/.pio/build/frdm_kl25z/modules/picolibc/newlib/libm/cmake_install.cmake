@@ -39,31 +39,31 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/newlib/libm/machine/cmake_install.cmake")
+  include("C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/newlib/libm/machine/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/newlib/libm/common/cmake_install.cmake")
+  include("C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/newlib/libm/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/newlib/libm/math/cmake_install.cmake")
+  include("C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/newlib/libm/math/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/newlib/libm/ld/cmake_install.cmake")
+  include("C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/newlib/libm/ld/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/newlib/libm/fenv/cmake_install.cmake")
+  include("C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/newlib/libm/fenv/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/newlib/libm/complex/cmake_install.cmake")
+  include("C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/newlib/libm/complex/cmake_install.cmake")
 endif()
 

@@ -39,18 +39,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/newlib/cmake_install.cmake")
+  include("C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/newlib/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/libc.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/modules/picolibc/libc.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/picolibc.specs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/picolibc.specs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/picolibc/include/picolibc.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/picolibc/include/picolibc.h")
 endif()
 

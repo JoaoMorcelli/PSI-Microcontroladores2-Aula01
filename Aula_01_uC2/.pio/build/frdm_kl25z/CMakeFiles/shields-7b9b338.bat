@@ -1,5 +1,5 @@
 @echo off
-cd /D C:\Users\Aluno\Documents\PlatformIO\Projects\Aula_01_uC2\.pio\build\frdm_kl25z || (set FAIL_LINE=2& goto :ABORT)
+cd /D C:\Users\Aluno\Documents\PlatformIO\Projects\PSI-Microcontroladores2-Aula01\Aula_01_uC2\.pio\build\frdm_kl25z || (set FAIL_LINE=2& goto :ABORT)
 C:\Users\Aluno\.platformio\packages\tool-cmake\bin\cmake.exe -E echo abrobot_sh1106_72x40 || (set FAIL_LINE=3& goto :ABORT)
 C:\Users\Aluno\.platformio\packages\tool-cmake\bin\cmake.exe -E echo adafruit_2_8_tft_touch_v2 || (set FAIL_LINE=4& goto :ABORT)
 C:\Users\Aluno\.platformio\packages\tool-cmake\bin\cmake.exe -E echo adafruit_2_8_tft_touch_v2_nano || (set FAIL_LINE=5& goto :ABORT)

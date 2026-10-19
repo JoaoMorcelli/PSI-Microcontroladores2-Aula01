@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/modules/hal_nxp/mcux/mcux-sdk/cmake_install.cmake")
-  include("C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/.pio/build/frdm_kl25z/modules/hal_nxp/mcux/middleware/cmake_install.cmake")
+  include("C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/modules/hal_nxp/mcux/mcux-sdk/cmake_install.cmake")
+  include("C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/.pio/build/frdm_kl25z/modules/hal_nxp/mcux/middleware/cmake_install.cmake")
 
 endif()
 

@@ -1,7 +1,7 @@
 cmake:
   application:
-    configuration-dir: 'C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/zephyr'
-    source-dir: 'C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/zephyr'
+    configuration-dir: 'C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/zephyr'
+    source-dir: 'C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/zephyr'
   board:
     name: 'frdm_kl25z'
     path:
@@ -32,9 +32,9 @@ cmake:
   kconfig:
     files:
      - 'C:/Users/Aluno/.platformio/packages/framework-zephyr/boards/nxp/frdm_kl25z/frdm_kl25z_defconfig'
-     - 'C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/zephyr/prj.conf'
+     - 'C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/zephyr/prj.conf'
     user-files:
-     - 'C:/Users/Aluno/Documents/PlatformIO/Projects/Aula_01_uC2/zephyr/prj.conf'
+     - 'C:/Users/Aluno/Documents/PlatformIO/Projects/PSI-Microcontroladores2-Aula01/Aula_01_uC2/zephyr/prj.conf'
   toolchain:
     name: 'gnuarmemb'
     path: 'C:/Users/Aluno/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220'
